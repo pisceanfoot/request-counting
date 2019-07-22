@@ -1,7 +1,7 @@
 {
   "name": "request-counting",
   "version": "1.0.0",
-  "description": "a nodejs prot for Apache mod_lbmethod_byrequests",
+  "description": "a nodejs port for Apache mod_lbmethod_byrequests",
   "main": "index.js",
   "scripts": {
     "run": "",
@@ -11,9 +11,14 @@
     "Apache",
     "mod_lbmethod_byrequests"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pisceanfoot/request-counting.git"
+  },
   "author": "Leo",
   "license": "ISC",
   "dependencies": {
     "esm": "^3.2.25"
-  }
+  },
+  "homepage": "https://github.com/pisceanfoot/request-counting"
 }
